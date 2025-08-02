@@ -6,7 +6,7 @@ This repository contains my accepted solutions to problems from [Codeforces](htt
 
 ## 📌 What You’ll Find Here
 
-- ✅ Solutions to problems from Div. 2, Div. 3, and Educational contests.
+- ✅ Solutions to problems from Div. 1, Div. 2, Div. 3, Div 4 and Educational contests.
 - 🔢 Problems solved using various algorithms (e.g., greedy, binary search, DFS/BFS, DP, etc.).
 - 🧮 Languages used: Mainly C++.
 
