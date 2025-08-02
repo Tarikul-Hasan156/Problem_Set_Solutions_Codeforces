@@ -21,4 +21,4 @@ In this repository, I follow a simple yet effective naming convention for each p
 ### Example:
 If the problem is titled **"Two Friends"**, you'll find its solution file named: **"two_friend.cpp"**
 
-**"Thank You"**
+**"Thank You"**  [Click for exit ](https://github.com/Tarikul-Hasan156?tab=repositories)
