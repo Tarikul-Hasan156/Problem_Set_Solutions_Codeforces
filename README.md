@@ -2,7 +2,7 @@
 
 Welcome to my Codeforces Problem Solutions repository!
 
-This repository contains my accepted solutions to problems from [Codeforces](https://codeforces.com/), one of the most popular competitive programming platforms. I use this space to keep track of my problem-solving progress and to improve my skills in data structures, algorithms, and coding under time constraints.
+This repository contains my accepted solutions to problems from [Codeforces](https://codeforces.com/profile/tarikul1234), one of the most popular competitive programming platforms. I use this space to keep track of my problem-solving progress and to improve my skills in data structures, algorithms, and coding under time constraints.
 
 ## 📌 What You’ll Find Here
 
