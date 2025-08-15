@@ -10,7 +10,7 @@ This repository contains my accepted solutions to problems from [Codeforces](htt
 - 🔢 Problems solved using various algorithms (e.g., greedy, binary search, DFS/BFS, DP, etc.).
 - 🧮 Languages used: Mainly C++.
 
-## 📂 Problem Naming Convention
+## 📂 Problem Naming Convention:
 
 In this repository, I follow a simple yet effective naming convention for each problem's solution.
 
