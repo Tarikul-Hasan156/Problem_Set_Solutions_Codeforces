@@ -1,0 +1,1 @@
+{"name":"Local: replace_min_max","url":"d:\\MY CODE\\Codeforces\\replace_min_max.cpp","tests":[{"id":1760492856952,"input":"5\n4 1 3 10 8\n","output":"4 10 3 1 8 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\MY CODE\\Codeforces\\replace_min_max.cpp","group":"local","local":true}
