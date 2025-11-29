@@ -1,0 +1,67 @@
+//بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+#include <bits/stdc++.h>
+#define speed ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define ll int64_t
+#define sp ' '
+#define endl '\n'
+using namespace std;
+
+struct custom_hash {
+  static uint64_t splitmix64(uint64_t x) {
+      x += 0x9e3779b97f4a7c15ULL;
+      x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9ULL;
+      x = (x ^ (x >> 27)) * 0x94d049bb133111ebULL;
+      return x ^ (x >> 31);
+  }
+
+  size_t operator()(uint64_t x) const {
+      static const uint64_t FIXED_RANDOM =
+          chrono::steady_clock::now().time_since_epoch().count();
+      return splitmix64(x + FIXED_RANDOM);
+  }
+};
+
+void solve ()
+{
+    ll x;cin>>x;
+    vector<ll>vv;
+    for (int i=0;i<x;i++){
+        ll temp;cin>>temp;
+        vv.push_back(temp%10);
+    }
+    unordered_map<ll,ll,custom_hash>mp;
+    for (int i=0;i<x;i++){
+        mp[vv[i]]++;
+        if (mp[vv[i]]>3)mp[vv[i]]--;
+    }
+    vector<ll>res;
+    for (auto [k,v]:mp){
+        for (int i=0;i<v;i++){
+            res.push_back(k);
+        }
+    }
+    for (int i=0;i<res.size();i++){
+        for (int j=0;j<res.size();j++){
+            for (int k=0;k<res.size();k++){
+                ll temp=res[i]+res[j]+res[k];
+                string last=to_string(temp);
+                if (last.back()=='3' and i!=j and j!=k and k!=i){
+                    cout <<"YES"<<endl;return;
+                }
+            }
+        }
+    }
+    cout<<"NO"<<endl;
+}
+
+int main ()
+{
+    speed;
+    int tt;
+    cin >> tt;
+    while (tt--)
+    {
+        solve();
+    }
+    return 0;
+}
