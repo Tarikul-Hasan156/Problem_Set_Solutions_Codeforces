@@ -42,7 +42,7 @@ void solve ()
     }else
     {
         ll cnt=0;
-        for (int i=0;i<size;i++)
+        for (int i=0;i<size;i++) 
         {
             if (cnt==2){cout<<"-";cnt=0;}
             cout<<s[i];
